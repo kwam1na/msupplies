@@ -1,7 +1,6 @@
 import Head from "next/head";
 import * as React from "react";
 import Footer from "../footer";
-import NavigationBar from "../navigation-bar";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
   return (
@@ -15,7 +14,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      {/* <NavigationBar /> */}
       {children}
       <Footer />
     </div>
