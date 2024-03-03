@@ -1,6 +1,6 @@
-import * as React from "react";
-import styles from "./Footer.module.css";
-import { socialLinks } from "@/constants";
+import * as React from 'react';
+import styles from './Footer.module.css';
+import { socialLinks } from '@/constants';
 
 export default function Footer() {
   return (
@@ -20,7 +20,7 @@ export default function Footer() {
               </div>
               <div className={styles.hours}>
                 <p>10 am - 8 pm</p>
-                <p>11 am - 6 pm</p>
+                <p>Closed</p>
               </div>
             </div>
           </div>
@@ -31,7 +31,9 @@ export default function Footer() {
         <div className={styles.infoColumn}>
           <div className={styles.info}>
             <p className={styles.infoTitle}>Phone</p>
-            <p>{"+233 20 909 8507"}</p>
+            <p>
+              <a href="tel:+233249771887">+233 24 977 1887</a>
+            </p>
           </div>
           <div className={styles.info}>
             <div className={styles.socials}>
@@ -50,7 +52,7 @@ export default function Footer() {
 
       <div className={styles.copyright}>
         <p>
-          2023 &copy; M Supplies, a subsidiary of Wigclub. All rights reserved.
+          2024 &copy; M Supplies, a subsidiary of Wigclub. All rights reserved.
         </p>
         <a
           className={styles.socialLink}
